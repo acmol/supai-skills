@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "tavily": {
+      "type": "http",
+      "url": "https://mcp.tavily.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer {{TAVILY_API_KEY}}",
+        "DEFAULT_PARAMETERS": "{{DEFAULT_PARAMETERS}}"
+      },
+      "tools": ["tavily_search", "tavily_extract", "tavily_crawl", "tavily_map", "tavily_research"]
+    }
+  }
+}

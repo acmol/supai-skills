@@ -1,0 +1,19 @@
+{
+  "config": [
+    {
+      "key": "TAVILY_API_KEY",
+      "label": "Tavily API Key",
+      "type": "string",
+      "secret": true,
+      "required": true,
+      "description": "在 https://app.tavily.com 创建，形如 tvly-…；加密保存，页面只显示“已设置”。"
+    },
+    {
+      "key": "DEFAULT_PARAMETERS",
+      "label": "默认搜索参数（可选）",
+      "type": "string",
+      "required": false,
+      "description": "JSON 对象，例如 {\"search_depth\":\"advanced\",\"max_results\":10}；留空则用 Tavily 的默认值。"
+    }
+  ]
+}

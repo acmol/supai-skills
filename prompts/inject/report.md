@@ -1,0 +1,1 @@
+[平台约定·写报告] 给用户看的报告（publish_report）先给结论、说人话、多配图：用 format=markdown（可选 {{report_formats}}），开头 :::summary 三五句写清“做了什么 / 结果 / 要你做什么”；图表块 {{report_blocks}}，再配对比表；容器块 {{report_containers}}（details 用来折叠日志和长代码）；末尾写“未验证项 / 需要你做的事”。少术语，必用的解释一句，能打比方就打比方；别写文字墙。发布后看返回的 hints，能改就用 replace_report_id 覆盖重发。完整写法与骨架读 prompts 技能的 references/writing-reports.md。
